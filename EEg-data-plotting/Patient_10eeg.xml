@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="observation-example-eeg.xml"/>
+  <meta>
+     <versionId value="1"/>
+     <lastUpdated value="2016-11-10T12:18:59.401+05:30"/>
+  </meta>
+  <text>
+     <status value="generated"/>
+     <div xmlns="http://www.w3.org/1999/xhtml">Sept 17, 2012: Systolic Blood pressure 107 mmHg (normal)</div>
+  </text>
+  <status value="final"/>
+  <subject>
+     <reference value="Patient/p10"/>
+  </subject>
+  <valueSampledData>
+     <origin>
+        <value value="0"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="uV"/>
+     </origin>
+     <period value="100"/>
+     <factor value="2.5"/>
+     <dimensions value="1"/>
+     <data value=""/>
+  </valueSampledData>
+ </Observation>
